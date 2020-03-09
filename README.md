@@ -61,4 +61,4 @@ Removes a function reference from the queue.
 - `run( done? => void | Promise )`
 Starts a process running. Any functions added to the queue will the process is running will not be run until the process is complete. It can be made async by either returning a promise or calling the `done` function passed to the callback as an argument.
 
-Returning a promise and accepting a `done` parameter are mutually exclusive. If the callback function accepts a `done` parameter, it ***must be called**.
+Returning a promise and accepting a `done` parameter are mutually exclusive. If the callback function accepts a `done` parameter, it **must be called**.

@@ -6,4 +6,5 @@ module.exports = {
       lines: 90,
     },
   },
+  coveragePathIgnorePatterns:['test/test.utils.js']
 };
