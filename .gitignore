@@ -5,7 +5,7 @@ node_modules
 # ignore dependencies lock files
 package-lock.json
 yarn-error.log
-build/
+dist/
 coverage/
 
 website/node_modules

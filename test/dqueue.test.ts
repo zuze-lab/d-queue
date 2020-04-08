@@ -95,7 +95,7 @@ describe('debounce queue', () => {
     run(asyncFn);
     const dequeue = enqueue(fn);
     await advanceTimersByTime(time - 1);
-    dequeue(fn);
+    dequeue();
     await advanceTimersByTime(1);
     expect(fn).not.toHaveBeenCalled();
   });
