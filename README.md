@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@zuze/d-queue.svg)](https://npmjs.org/package/@zuze/d-queue)
 [![Coverage Status](https://coveralls.io/repos/github/zuze-lab/d-queue/badge.svg)](https://coveralls.io/github/zuze-lab/d-queue)
-[![Build Status](https://travis-ci.org/zuze-lab/d-queue.svg)](https://travis-ci.org/zuze-lab/d-queue)
+[![Build Status](https://travis-ci.com/zuze-lab/d-queue.svg)](https://travis-ci.com/zuze-lab/d-queue)
 [![Bundle Phobia](https://badgen.net/bundlephobia/minzip/@zuze/d-queue)](https://bundlephobia.com/result?p=@zuze/d-queue)
 [![install size](https://packagephobia.now.sh/badge?p=@zuze/d-queue)](https://packagephobia.now.sh/result?p=@zuze/d-queue)
 
