@@ -1,9 +1,8 @@
 {
   "name": "@zuze/d-queue",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A ridiculously small and simple debounce queue",
-  "main": "build/cjs/index.js",
-  "module": "build/esm/index.js",
+  "main": "dist/index.js",
   "keywords": [
     "queue",
     "async",
@@ -12,7 +11,7 @@
     "event"
   ],
   "files": [
-    "build"
+    "dist"
   ],
   "homepage": "https://github.com/zuze-lab/d-queue",
   "scripts": {
@@ -24,26 +23,18 @@
   },
   "author": "Adam Jenkins",
   "license": "ISC",
-  "dependencies": {
-    "@babel/runtime": "^7.8.7"
-  },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/plugin-transform-runtime": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^25.1.0",
     "coveralls": "^3.0.9",
-    "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.17.0",
-    "eslint-plugin-prettier": "^3.1.0",
     "jest": "^25.1.0",
     "prettier": "^1.18.2",
     "rollup": "^1.21.4",
-    "rollup-plugin-babel": "^4.3.3",
+    "@types/jest": "^25.2.1",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "ts-jest": "^25.3.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-origin-ordered-imports-rule": "^1.2.2",
+    "typescript": "^3.6.4",
     "rollup-plugin-commonjs": "^10.1.0"
   }
 }

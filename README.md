@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@zuze/d-queue.svg)](https://npmjs.org/package/@zuze/d-queue)
 [![Coverage Status](https://coveralls.io/repos/github/zuze-lab/d-queue/badge.svg)](https://coveralls.io/github/zuze-lab/d-queue)
-[![Build Status](https://travis-ci.org/zuze-lab/d-queue.svg)](https://travis-ci.org/zuze-lab/d-queue)
+[![Build Status](https://travis-ci.com/zuze-lab/d-queue.svg)](https://travis-ci.com/zuze-lab/d-queue)
 [![Bundle Phobia](https://badgen.net/bundlephobia/minzip/@zuze/d-queue)](https://bundlephobia.com/result?p=@zuze/d-queue)
 [![install size](https://packagephobia.now.sh/badge?p=@zuze/d-queue)](https://packagephobia.now.sh/result?p=@zuze/d-queue)
 
@@ -71,7 +71,7 @@ Accepts a function reference and (optionally) an array arguments that function s
 - `dequeue (fn: Function)`
 Removes a function reference from the queue.
 
-- `run( done? => void | Promise )`
+- `run( done?:() => void | any | Promise<any> )`
 Starts a process running. Any functions added to the queue will the process is running will not be run until the process is complete. It can be made async by either returning a promise or calling the `done` function passed to the callback as an argument.
 
 Returning a promise and accepting a `done` parameter are mutually exclusive. If the callback function accepts a `done` parameter, it **must be called**.
